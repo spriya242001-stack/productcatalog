@@ -9,5 +9,5 @@ POST  	http://localhost:8085/saveProduct
 POST	  http://localhost:8085/products/category/clothes
 
 
-Feedback Repository link for githud
+Feedback Repository link for github
 https://github.com/spriya242001-stack/FeedbackRepository/edit/master/README.md
