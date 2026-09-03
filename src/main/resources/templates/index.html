@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot - MVC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #ffffff;
+        }
+
+        .box {
+            border: 2px solid #333333;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .btn {
+            display: block;
+            background-color: #aed6f1;
+            border: 2px solid #7fb3d5;
+            padding: 10px;
+            margin: 15px 0;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Spring Boot-MVC</h2>
+
+<div class="box">
+    <a th:href="@{/addProduct}" class="btn">Add Product</a>
+    <a th:href="@{/displayProducts}" class="btn">Display Product</a>
+</div>
+
+</body>
+</html>
